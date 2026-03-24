@@ -1,0 +1,22 @@
+{
+  "monitor_interval": 1.0,
+  "buttons": [
+    {
+      "name": "collect_reward",
+      "x": 760,
+      "y": 480
+    },
+    {
+      "name": "confirm_dialog",
+      "x": 760,
+      "y": 540
+    }
+  ],
+  "red_dot": {
+    "hsv_lower": [0, 150, 150],
+    "hsv_upper": [10, 255, 255],
+    "min_area": 20,
+    "max_area": 500
+  },
+  "window_title": "KingShot"
+}
