@@ -1,0 +1,39 @@
+{
+  "appium": {
+    "host": "127.0.0.1",
+    "port": 4723,
+    "capabilities": {
+      "platformName": "iOS",
+      "platformVersion": "17.0",
+      "deviceName": "iPhone",
+      "udid": "YOUR_DEVICE_UDID",
+      "bundleId": "com.yourcompany.kingshot",
+      "automationName": "XCUITest",
+      "noReset": true,
+      "newCommandTimeout": 600
+    }
+  },
+  "buttons": [
+    {
+      "name": "collect_resources",
+      "x": 100,
+      "y": 200
+    },
+    {
+      "name": "start_training",
+      "x": 300,
+      "y": 400
+    }
+  ],
+  "detection": {
+    "red_dot": {
+      "hsv_lower": [0, 150, 150],
+      "hsv_upper": [10, 255, 255],
+      "hsv_lower2": [170, 150, 150],
+      "hsv_upper2": [180, 255, 255],
+      "min_radius": 5,
+      "max_radius": 30
+    }
+  },
+  "interval_seconds": 5
+}
